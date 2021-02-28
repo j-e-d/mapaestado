@@ -1,0 +1,5 @@
+- Change author and email for commits
+- Get list of files in filename order
+  - Rename file to common name
+  - git add
+  - git commit --date=YYYY-MM-DDTHH:MM:SS -m "commit message"
