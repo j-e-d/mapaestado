@@ -3,9 +3,6 @@ name: Scrape de datos más recientes
 on:
   push:
   workflow_dispatch:
-  schedule:
-    # deshabilitado por estar bloqueado
-    # - cron:  '42 */3 * * *'
 
 jobs:
   scheduled:
