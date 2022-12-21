@@ -4,7 +4,8 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '42 */3 * * *'
+    # deshabilitado por estar bloqueado
+    # - cron:  '42 */3 * * *'
 
 jobs:
   scheduled:
