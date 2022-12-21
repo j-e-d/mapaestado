@@ -15,7 +15,6 @@ jobs:
     - name: Get data
       run: |-
         curl 'https://mapadelestado.jefatura.gob.ar/includes/estructura_csv.php?r=0' \
-        curl 'https://mapadelestado.jefatura.gob.ar/includes/estructura_csv.php?r=0' \
         -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0' \
         -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' \
         -H 'Accept-Language: en,en-US;q=0.8,en-GB;q=0.5,es-ES;q=0.3' \
